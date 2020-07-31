@@ -1,0 +1,3 @@
+# Kerastuner-and-simple-cnn-model-on-cifar-10-object-detection-dataset
+In this first, I had done simple data augmentation and then I had built a simple cnn baseline model with 88% accuracy.
+After that, I had build Keras tuner model and chosen all the tuners with only some number of epochs and the number of trials was kept smaller, then also it was giving 77% accuracy, the model is slightly different than baseline model in this I had not added the strides in last 2 conv2d layers and I had added dropout at after every maxpooling2d so the model cannot overfit so due to change in model, the model accuracy also differs and I got  87% accuracy.
